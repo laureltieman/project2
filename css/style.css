@@ -1,0 +1,446 @@
+/* All CSS styles go here */
+
+
+@font-face {
+    font-family: "Gotham";
+    src: url(../fonts/GothamMedium.ttf);
+}
+
+@font-face {
+    font-family: "GothamBold";
+    src: url(../fonts/GothamBold.otf);
+}
+
+@font-face {
+    font-family: "GothamItalic";
+    src: url(../fonts/GothamBookItalic.ttf);
+}
+
+html,body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background: #f50841;
+	transition: 3s all;
+}
+
+.changeColor {
+   background: #eb4e24;
+}
+
+.container {
+	position: relative;
+	padding-left: 15%;
+	padding-right: 15%;
+	top: 27%;
+	z-index: -1;
+	height: 2050px;
+}
+
+p {
+	font-family: "GothamItalic", sans-serif;
+	font-size: 16px;
+	color: black;
+	display: block;
+}
+
+h1 {
+	font-family: "GothamBold", sans-serif;
+	font-size: 37px;
+	letter-spacing: 3px;
+	color: #f50841;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h2, a.link {
+	font-family: "GothamBold", sans-serif;
+	font-size: 50px;
+	color: black;
+	text-align: center;
+
+}
+
+nav, a {
+	font-family: "Gotham", sans-serif;
+	font-size: 22px;
+	color: #f50841;
+	text-decoration: none;
+}
+
+nav {
+	height: 55px;
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+}
+
+li {
+	float: left;
+}
+
+a {
+	display: block;
+	padding-right: 10px;
+}
+
+a:hover {
+	color: white;
+}
+
+/* HOME */
+
+.line {
+	border-left: 3px solid #f50841;
+	height: 30px;
+	padding-left: 10px;
+	position: relative;
+	bottom: 10px;
+}
+
+
+
+#blackspot {
+	width: 35%;
+	position: relative;
+	left: 5%;
+	transform: rotate(-20deg);
+}
+
+#abillionpeople {
+	background-image: url(../images/abillionpeople.png);
+	width: 600px;
+	position: absolute;
+	left: 43%;
+	top: 0%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+.sideways {
+	transform: rotate(-90deg);
+	transform-origin: 0;
+}
+
+#scroll {
+	position: relative;
+	left: 70px;
+	top: 30px;
+}
+
+.arrow {
+	right: 20px;
+	position: relative;
+	bottom: 15px;
+	animation: bounce 1s alternate infinite cubic-bezier(.78,.4,.22,.98);
+
+}
+
+@-webkit-keyframes bounce {
+	0% 	{ left: -10px; }
+	100% 	{ left: -25px; }
+}
+
+#boxbackground {
+	width: 800px;
+	padding-top: 30px;
+}
+
+.section1 {
+    width: 800px;
+    left: 3%;
+    position: relative;
+    height: 560px;
+}
+
+#text1 {
+	width: 310px;
+	position: absolute;
+	top: 18%;
+	left: 7%;
+}
+
+#text2 {
+	width: 310px;
+	position: absolute;
+	left: 56%;
+	bottom: 0%;
+}
+
+#manifesto {
+	left: 100%;
+    position: relative;
+    top: -115%;
+    width: 180px;
+}
+}
+
+
+.textbox2 {
+	position: relative;
+	width: 700px;
+	height: 500px;
+	right: 13%;
+}
+
+.section2 {
+	width: 800px;
+	height: 700px;
+}
+
+#upcomingglobalactions {
+	width: 300px;
+	position: relative;
+	left: -5%;
+	bottom: 0%;
+}
+
+#globalactions {
+	width: 600px;
+	position: relative;
+	left: 30%;
+	top: -80%;
+}
+
+/* BLACK POPPY */
+
+#blackpoppy {
+    width: 60%;
+    position: relative;
+    left: 20%;
+    top: 13%;
+    float: left;
+}
+
+#poppy {
+	width: 40%;
+	position: relative;
+	top: 49%;
+	float: left;
+	right: 51%;
+	transform: rotate(-5deg);
+}
+
+#skull {
+	width: 49%;
+	position: relative;
+	left: 40%;
+	float: left;
+	bottom: 27%;
+	transform: rotate(5deg);
+}
+
+.sideways2 {
+	transform: rotate(-90deg);
+	transform-origin: 0;
+    position: absolute;
+    top: 137%;
+    left: 19%;
+}
+
+#lest {
+	position: relative;
+	right: 29%;
+	top: 77%;
+}
+
+#section3 {
+	position: absolute;
+    bottom: -120%;
+    left: 50%;
+}
+
+
+#text3 {
+	width: 310px;
+	position: relative;
+	left: 11%;
+}
+
+#boxbackground2 {
+	position: absolute;
+	top: -15%;
+}
+
+#section4 {
+	position: relative;
+	top: 63%;
+	width: 50%;
+	left: 25%;
+}
+
+#readmore {
+	transform: rotate(130deg);
+	position: relative;
+	margin-bottom: -12%;
+	left: 92%;
+}
+
+
+
+/* BUY NOTHING PAGE */
+
+#buynothing {
+	width: 900px;
+	position: relative;
+	left: 22%;
+	top: 5%;
+}
+
+#keepshopping {
+	position: absolute;
+	top: 33%;
+
+}
+
+#consume {
+	position: absolute;
+	left: 30%;
+	top: 72%;
+}
+
+#buynothingday {
+	position: absolute;
+	left: 50%;
+	z-index: -1;
+	top: 20%;
+}
+
+#section6 {
+    position: absolute;
+    top: 120%;
+    left: 20%;
+}
+
+#text4 {
+	width: 310px;
+	position: relative;
+	left: 8%;
+}
+
+#boxbackground4 {
+	margin-top: -270px;
+}
+
+#buynothing2 {
+	position: relative;
+	margin-bottom: 10%;
+	left: 18%;
+}
+
+#section7 {
+	position: absolute;
+	left: 28%;
+	top: 215%;
+}
+
+#text5 {
+    width: 310px;
+    position: absolute;
+	top: 16%;
+	left: 7%;
+}
+
+#text6 {
+    width: 310px;
+    position: absolute;
+	left: 56%;
+	bottom: 12%;
+}
+
+#buynothingxmas {
+	position: relative;
+	top: 128%;
+	left: 5%;
+}
+
+#section8 {
+	position: absolute;
+	top: 320%;
+	left: 50%;
+}
+
+#boxbackground5 {
+	position: absolute;
+	top: -24%;
+	right: -18%;
+}
+
+#breakthetrance {
+	position: absolute;
+	top: -160%;
+	left: 108%;
+}
+
+#breaktranceevents {
+	position: relative;
+	top: 290%;
+	left: 4%;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color: black;
+	height: 420px;
+	margin-top: 300px;
+}
+
+input[type=text], select {
+    display: inline-block;
+    border: 0px;
+    border-bottom: 2px solid white;
+    background-color: black;
+    color: gray;
+    width: 650px;
+    font-size: 80px;
+    font-family: "GothamBold", sans-serif;
+    margin-left: 29%;
+    margin-top: 10%;
+
+}
+
+label {
+	color: white;
+	font-family: "GothamItalic", sans-serif;
+	font-size: 16px;
+	margin-left: 29%;
+	padding-top: 16px;
+	position: relative;
+	float: left;
+}
+ 
+#arrow2 {
+	transform: rotate(-90deg);
+	position: absolute;
+	left: 22%;
+	margin-top: 174px;
+}
+
+#joinus {
+	color: white;
+	transform: rotate(-90deg);
+	transform-origin: 0 0;
+	position: absolute;
+	left: 22%;
+	margin-top: -20px;
+}
+
+#footer2 {
+	margin-top: 628px;
+}
+
+#footer3 {
+	margin-top: 2300px;
+}
+
+
+
